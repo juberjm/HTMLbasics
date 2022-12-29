@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <table>
+        <tr>
+            <td><label>What type of internet connection do you have?(Select One)</label> </td>
+            <td>
+                <select name="connections" id="connections" size = 4>
+                <option value="Dial-up">Dial-up</option>
+                <option value="DSL">DSL</option>
+                <option value="High Speed Cable">High Speed Cable</option>
+                <option value="Other">Other</option>
+            </select>
+            </td>
+        </tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr>
+            <td><label>What type of computer do you use most at home?</label></td>
+            <td>
+                <input type="radio" name="desk" id="desktop">
+                <label for="desk" id="desktop">Desktop</label>
+                <input type="radio" name="desk" id="laptop">
+                <label for="desk" id="desktop">Laptop </label>
+            </td>
+        </tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><br>
+            <td><label>How would you describe your main reason for using the Internet?</label></td>
+            <td>
+                <input type="radio" name="reason" id="reason">
+                <label for="reason">To do work-related activities</label><br>
+                <input type="radio" name="reason" id="reason2">
+                <label for="reason2">To do school related activities</label><br>
+                <input type="radio" name="reason" id="reason3">
+                <label for="reason3">For entertainment purposes</label><br>
+                <input type="radio" name="reason" id="reason4">
+                <label for="reason4">Other activities</label><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <fieldset width="50%">
+                    <legend>Types of sites visited</legend>
+                    <p>What types of web sites do you access most often?</p>
+                    <input type="checkbox" name="self" id="self">
+                    <label for="self">Self Improvement</label><br>
+
+                    <input type="checkbox" name="self" id="ent">
+                    <label for="ent">entertainment</label><br>
+
+                    <input type="checkbox" name="self" id="web">
+                    <label for="web">News and Sports</label><br>
+
+                    <input type="checkbox" name="self" id="ref">
+                    <label for="ref">Reference</label><br>
+
+                    <input type="checkbox" name="self" id="email">
+                    <label for="email">Email</label><br>
+                    
+                </fieldset>
+            </td>
+
+            <td>
+                <fieldset width="50%">
+                    <legend>Time spent using internet</legend>
+                    <p>What types of web sites do you access most often?</p>
+                    <input type="radio" name="hours" id="hours1">
+                    <label for="hours1">0-3 hours</label><br>
+
+                    <input type="radio" name="hours" id="hours2">
+                    <label for="hours2">4-6 hours</label><br>
+
+                    <input type="radio" name="hours" id="hours3">
+                    <label for="hours3">7-10 hours</label><br>
+
+                    <input type="radio" name="hours" id="hours4">
+                    <label for="hours4">11-14 hours</label><br>
+
+                    <input type="radio" name="hours" id="hours5">
+                    <label for="hours5">15+ hours</label><br>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+            <p>Please comment on your opinions concerning Internet privacy and safety</p>
+            <textarea rows="5" cols="90" placeholder="enter a comment"></textarea>
+            </td>
+       
+        </tr>
+
+        <tr>
+            <td> 
+                <label for="text">First Name</label>
+                <input type ="text" name="nm" id="text"></textarea>
+            
+            </td>
+
+            <td>
+            
+                  
+                    <label for="text">Last Name</label>
+                    <input type ="text" name="nm" id="text"></textarea>
+                    
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td> 
+            
+                    
+                    <label for="age">Age</label>
+                    <input type ="text" name="nm" id="age"></textarea>
+            
+            </td>
+
+            <td>
+            
+                  
+                    <label for="code">Zip code</label>
+                    <input type ="text" name="nm" id="code"></textarea>
+                    
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td align="right">
+                
+                <button id="btn" type="submit" name="btn" onclick="showmsg()">Click to Submit</button>
+                
+            </td>
+
+            <td>
+                
+                <button id="btn" type="submit" name="btn" onclick="showmsg()">Clear Form</button>
+                
+            </td>
+        </tr>
+
+    </table>
+   </form> 
+</body>
+</html>

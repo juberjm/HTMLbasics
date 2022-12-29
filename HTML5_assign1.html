@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style>
+        fieldset{
+            width:30%;
+
+        }</style>
+    </head>
+        <body>
+            <h1>Appointment Scheduler</h1>
+        <div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="nm" name="nm"></td>
+                        
+                        </tr>
+                        
+                        <tr>
+                            <td><br>Telephone Number</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="Num" name="Num"></td>
+                        </tr>
+                        <tr><td></td></tr>
+                        <tr>
+                            <td><br>Email address</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="add" name="add"></td>
+                        </tr>
+                        <tr><td></td></tr>
+                        <tr>
+                            <td><br>Date of birth</td>
+                        </tr>
+                        <tr>
+                            <td><input type="date" id="brth" name="brth"></td>
+                        </tr>   
+                    </table>
+                </form>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Appointment Request</legend>
+                <form>
+                    <table>
+                        <tr>
+                            <td><br>What is the reason for your visit?</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="vis" name="vis"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><br>Current pain level</td>
+                        </tr>
+                         <tr>
+                            <td><input type="range" id="rng" name="rng"></td>
+                         </tr>
+
+                         <tr>
+                            <td><br>preferred date</td>
+                        </tr>
+                         <tr>
+                            <td><input type="date" id="pref" name="pref"></td>
+                         </tr>
+
+                         <tr>
+                            <td><br>preferred time</td>
+                        </tr>
+                         <tr>
+                            <td><input type="number" min="1" max="24" id="time" name="time"></td>
+                         </tr>
+                    </table>
+                </form>
+            </fieldset>
+
+        </div>
+
+        <table>
+            <form>
+            <tr>
+                <td><button type="submit" id="time" name="time" width="55px">Submit</td>
+             </tr>
+             </form>
+        </table>
+
+        </body>
+    
+</html>

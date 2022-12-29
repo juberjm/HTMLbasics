@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <table bgcolor="pink" border="1px">
+            <tr>
+                <td><label for="nm">Name</label> </td>
+                <td><input type="text" name="nm" id="nm" autofocus placeholder="Enter Name"> <span
+                        style="color:red">*</span> </td>
+            </tr>
+            <tr>
+                <td><label for="ec">Employee Code</label> </td>
+                <td><input type="text" name="nm" id="ec" placeholder="Enter Name"><span style="color:red">*</span></td>
+            </tr>
+
+            <tr>
+                <td><label>Department</label></td>
+                <td>
+                    <input type="radio" name="dept" id="admin">
+                    <label for="dept">Admin</label><br>
+
+                    <input type="radio" name="dept" id="HR">
+                    <label for="dept">HR</label><br>
+
+                    <input type="radio" name="dept" id="technical">
+                    <label for="dept">Technical</label><br>
+
+                    <input type="radio" name="dept" id="accounts">
+                    <label for="dept">Accounts</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Date of Joining</label></td>
+                <td><input type="text" size="1">/<input type="text" size="1">/<input type="text" size="1"><br>
+                    <label>&nbsp;dd</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>mm</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>yy</label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="text5">Address</label></td>
+                <td><textarea  id="text5" rows="3" cols="50" placeholder = "enter your address"></textarea>
+            </tr>
+
+
+            <tr>
+                <td><label>Training Programs Attended</label></td>
+                <td>
+                    <input type="checkbox" name="dept" id="html">
+                    <label for="dept">HTML/DHTML</label><br>
+
+                    <input type="checkbox" name="dept" id="java">
+                    <label for="dept">JAVA</label><br>
+
+                    <input type="checkbox" name="dept" id="CLIENT">
+                    <label for="dept">CLIENT/SERVER</label><br>
+
+                    <input type="checkbox" name="dept" id="NET">
+                    <label for="dept">.NET</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Training Programs need to Attend</label></td>
+                <td>
+                    <select name=" programmes" id="programmes" size =2>
+                    <option value="JAVASCRIPT" >JAVASCRIPT</option>
+                    <option value="JSTRUTS">JSTRUTS</option>
+                </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><label>Send the information at</label></td>
+                <td>
+                    <a href="mailto:faraz2192@gmail.com">faraz2192@gmail.com</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
